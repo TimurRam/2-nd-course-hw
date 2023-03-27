@@ -1,0 +1,249 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .center {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+
+        &__title {
+            width: 678px;
+        }
+    }
+
+    .product {
+        justify-content: center;
+    }
+
+    .seasons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__content {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        &__title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            color: #FFFFFF;
+            padding-top: 50px;
+        }
+
+        &__text {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            color: #FFFFFF;
+        }
+
+        &__image {
+            width: 344px;
+            height: 236px;
+            padding-top: 64px;
+            padding-bottom: 86px;
+        }
+
+        &__button {
+            margin-bottom: 0px;
+        }
+    }
+
+    .remember {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__content {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        &__title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            color: #FFFFFF;
+            padding-top: 50px;
+        }
+
+        &__text {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            color: #FFFFFF;
+        }
+
+        &__image {
+            width: 344px;
+            height: 236px;
+            padding-top: 64px;
+            padding-bottom: 86px;
+        }
+
+        &__button {
+            margin-bottom: 0px;
+        }
+    }
+}
+
+
+@media(min-width: 325px) and (max-width: 768px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        height: 735px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-position-x: 31%;
+
+        &__text_bold {
+            font-size: 14px;
+            line-height: 22px;
+
+        }
+
+        &__title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            width: 343px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            padding-top: 238px;
+        }
+
+        &__text {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            width: 343px;
+            padding-bottom: 32px;
+
+        }
+
+        &__text_box {
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+
+    }
+
+    .product {
+        flex-direction: column;
+        align-content: center;
+
+        &__image {
+            width: 343px;
+            height: 300px;
+        }
+    }
+
+    .seasons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__content {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        &__title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            color: #FFFFFF;
+            padding-top: 50px;
+        }
+
+        &__text {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            color: #FFFFFF;
+        }
+
+        &__image {
+            width: 344px;
+            height: 236px;
+            padding-top: 64px;
+            padding-bottom: 86px;
+        }
+
+        &__button {
+            margin-bottom: 0px;
+        }
+    }
+
+    .remember {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__content {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        &__title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            color: #FFFFFF;
+            padding-top: 50px;
+        }
+
+        &__text {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            color: #FFFFFF;
+        }
+
+        &__image {
+            width: 344px;
+            height: 236px;
+            padding-top: 64px;
+            padding-bottom: 86px;
+        }
+
+        &__button {
+            margin-bottom: 0px;
+        }
+    }
+}
