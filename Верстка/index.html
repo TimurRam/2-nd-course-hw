@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой первый проект</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="top center">
+        <h1 class="top__title">Добро пожаловать <br> на мой сайт !</h1>
+        <div class="top__text_box">
+            <p class="top__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span
+                    class="top__text_bold">поехали</span> и
+                <span class="top__text_bold">приступай</span>
+            </p>
+        </div>
+        <form class="top_button" action="#">
+            <button class="top__button">Поехали!</button>
+        </form>
+
+    </section>
+    <section class="product center">
+        <div class="product__game">
+            <a class="product__link" href="#"> <img class="product__image" src="./img/game1.png" alt="Игра"></a>
+            <a class="product__link" href="#">
+                <p class="product__text">Игра 1</p>
+            </a>
+
+        </div>
+        <div class="product__game">
+            <a class="product__link" href="#"><img class="product__image" src="img/game2.png" alt="Игра"></a>
+            <a class="product__link" href="#">
+                <p class="product__text">Игра 2</p>
+            </a>
+
+        </div>
+        <div class="product__game">
+            <a class="product__link" href="#"><img class="product__image" src="img/game3.png" alt="Игра"></a>
+            <a class="product__link" href="#">
+                <p class="product__text">Игра 3</p>
+            </a>
+
+        </div>
+
+    </section>
+    <section class="seasons center">
+        <div class="seasons__content">
+            <h2 class="seasons__title">Времена года!</h2>
+            <p class="seasons__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому
+                времени года он относится</p>
+            <button onclick="seasons()" class="seasons__button">Играть!</button>
+        </div>
+        <img class="seasons__image" src="./img/weatherImage.svg" alt="image">
+    </section>
+    <section class="remember center">
+        <div class="remember__content">
+            <h2 class="remember__title">Запомни слова </h2>
+            <p class="remember__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо
+                запомнить.</p>
+            <button onclick="words()" class="remember__button">Играть!</button>
+        </div>
+        <img class="remember__image" src="img/imggame2.svg" alt="image">
+    </section>
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>

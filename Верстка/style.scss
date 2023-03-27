@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.top {
+    background-image: url(./img/top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1024px;
+
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 78px;
+        color: #FFFFFF;
+        width: 788px;
+        padding-top: 217px;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+        width: 481px;
+        padding-top: 32px;
+        padding-bottom: 44px;
+    }
+
+    &__text_bold {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    &__button {
+        background: #9C0332;
+        width: 234.06px;
+        height: 48.6px;
+        border-radius: 30px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        border: none;
+    }
+
+    &__button:hover {
+        cursor: url(./img/cursor.svg), pointer;
+    }
+}
+
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.product {
+    background: #000915;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-top: 128px;
+    padding-bottom: 128px;
+
+    &__game {
+        position: relative;
+    }
+
+    &__image {
+        border-radius: 16px;
+        width: 378px;
+    }
+
+    &__image:hover {
+        border: 3px solid #44D2FF;
+        cursor: url(./img/cursor.svg), pointer;
+        box-sizing: border-box;
+    }
+
+    &__link {
+        cursor: url(./img/cursor.svg), pointer;
+
+    }
+
+
+    &__text {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+        position: absolute;
+        bottom: 32px;
+        left: 32px;
+    }
+}
+
+.seasons {
+    background: #000915;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    &__title {
+        padding-top: 282px;
+        margin-bottom: 32px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        max-width: 584px;
+    }
+
+    &__button {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        width: 240.44px;
+        height: 48.6px;
+        background: #9C0332;
+        border-radius: 30px;
+        color: #FFFFFF;
+        margin-top: 32px;
+        margin-bottom: 282px;
+        border: none;
+
+    }
+
+    &__button:hover {
+        cursor: url(./img/cursor.svg), pointer;
+    }
+
+    &__image {
+        padding-top: 234px;
+        padding-bottom: 234px;
+    }
+}
+
+.remember {
+    background: #000915;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+    &__title {
+        padding-top: 282px;
+        margin-bottom: 32px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        max-width: 584px;
+    }
+
+    &__button {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        width: 234.06px;
+        height: 48.6px;
+        background: #9C0332;
+        border-radius: 30px;
+        color: #FFFFFF;
+        margin-top: 32px;
+        margin-bottom: 282px;
+        border: none;
+
+    }
+
+    &__button:hover {
+        cursor: url(./img/cursor.svg), pointer;
+    }
+
+    &__image {
+        padding-top: 238px;
+        padding-bottom: 238px;
+    }
+}
+
+
+
+@import 'mobile';
